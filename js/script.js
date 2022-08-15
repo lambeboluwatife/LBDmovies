@@ -38,6 +38,8 @@ if ((width >= 0) && (width <= 1023)){
                 title,
                 original_name,
                 release_date,
+                overview,
+                media_type,
                 first_air_date,
                 poster_path,
                 id,
@@ -45,9 +47,11 @@ if ((width >= 0) && (width <= 1023)){
             return (
                 eachMovie += ` 
                             <div class = "movie-item">
-                            <img src="http://image.tmdb.org/t/p/w500/${poster_path}" alt="" class="img-link" id="${id}"> 
+                            <div class="img-area">
+                                <img src="http://image.tmdb.org/t/p/w500/${poster_path}" alt="" class="img-link" id="${id}">
+                            </div>
                             <div class= "container">
-                            <p class = "first-para">${title || original_name}</p>                                
+                            <p class = "first-para">${title || original_name}</p>                       
                             <p class = "second-para">${release_date || first_air_date}</p>                            
                             </div>
                             </div>`
