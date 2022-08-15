@@ -103,6 +103,10 @@
   margin-bottom: 5px;
 }
 
+.footer {
+  margin-top: 20px;
+}
+
 .footer-title {
   font-size: 30px;
   font-weight: bolder;
@@ -128,7 +132,6 @@
 
 .footer-content {
   margin-top: 30px;
-  /* margin-left: 50px; */
 }
 
 .content {
@@ -166,22 +169,38 @@ i {
   color: #00ff00;
 }
 
-.movie-gallery {
-  margin: 2em 1em;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-auto-rows: minmax(100px, auto);
-  grid-column-gap: 0.4em;
-  grid-row-gap: 0.7em;
+.text-center {
+  text-align: center;
 }
 
-/* .movie-item{
-    background-color:#262626 ;
-} */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
 
-.movie-gallery img {
-  height: 60%;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.img-area {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-area img {
   width: 100%;
+  height: auto;
 }
 
 .movie-gallery p {
@@ -207,4 +226,54 @@ i {
 /* On mouse-over, add a deeper shadow */
 .movie-item:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 20);
+}
+
+.tv-data {
+  display: none;
+}
+
+/* Tablets and under */
+@media (max-width: 500px) {
+  .header {
+    height: 50px;
+  }
+  
+  .header-title {
+    margin-left: 5px;
+  }
+  
+  .header-subtitle {
+    display: block;
+    font-size: small;
+    margin-right: 45px;
+  }
+  
+  .btn-sign {
+    display: none;
+  }
+
+  .info {
+    margin-top: 30px;
+    height: 30rem;
+    background-position: center;
+  }
+
+  .info-title {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  
+  .info-subtitle {
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  table {
+    width: 80%;
+  }
 }
