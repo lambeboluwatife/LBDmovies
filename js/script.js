@@ -83,7 +83,7 @@ if ((width >= 0) && (width <= 1023)){
         return resp.json();
     }).then(function(data) {
         console.log(data);
-        const seriesData = data.items
+        const seriesData = data.items.slice(0, 20)
 
         let eachSeries = "";
         seriesData.forEach(
