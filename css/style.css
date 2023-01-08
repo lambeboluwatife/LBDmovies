@@ -20,7 +20,6 @@
 .header-title {
   font-size: 30px;
   color: #00ff00;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   margin-left: 50px;
   padding-top: 5px;
   display: inline;
@@ -28,8 +27,6 @@
 
 .header-subtitle {
   display: inline;
-  /* font-family: "Courier New", Courier, monospace, Cochin, Georgia, Times,
-    "Times New Roman", serif; */
   float: right;
   font-size: larger;
   padding-top: 10px;
@@ -41,7 +38,6 @@
   float: right;
   margin-top: 10px;
   margin-right: 10px;
-  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
   color: #fff;
   background-color: transparent;
   border: 1px #fff solid;
@@ -54,7 +50,6 @@
 
 .info-title {
   font-size: 50px;
-  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
   padding-top: 30px;
   margin-left: 50px;
   color: #fff;
@@ -64,7 +59,6 @@
   font-size: 20px;
   margin-left: 50px;
   font-weight: bolder;
-  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
 }
 
 .type {
@@ -219,7 +213,7 @@ i {
   bottom: 5px;
 }
 
-.movie-item {
+.movie-item, .series-item {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   transition: 0.3s;
