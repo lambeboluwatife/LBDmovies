@@ -209,7 +209,6 @@ i {
   margin-bottom: 1em;
   padding: 5px;
   display: block;
-  /* position: absolute; */
   bottom: 5px;
 }
 
@@ -227,6 +226,25 @@ i {
 .series {
   display: none;
   font-family: "Lato", sans-serif;
+}
+
+.first-para span {
+  background-color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.first-para span.green {
+  color: lightgreen;
+}
+
+.first-para span.orange {
+  color: orange;
+}
+
+.first-para span.red {
+  color: red;
 }
 
 /* Tablets and under */

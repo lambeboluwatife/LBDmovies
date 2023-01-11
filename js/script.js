@@ -44,7 +44,7 @@ const search = document.getElementById("search");
 const MOVIE_API =
   "https://api.themoviedb.org/3/trending/movie/day?api_key=514318c6f6f673457a51ffcaf8158cf2";
 
-const img_path = "https://image.tmdb.org/t/p/w1280";
+const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 
 const SEARCH_API =
   'https://api.themoviedb.org/3/search/movie?api_key=514318c6f6f673457a51ffcaf8158cf2&query="';
@@ -82,9 +82,11 @@ function showMovies(movies) {
 
     movieElement.innerHTML = `
     <div class="img-area">
-        <img src="http://image.tmdb.org/t/p/w500/${poster_path}" alt="" class="img-link" id="${id}">
-        </div>
-        <div class= "container">
+        <img src="${IMG_PATH + poster_path}" alt="${
+      title || original_name
+    }" class="img-link" id="${id}">
+    </div>
+    <div class= "container">
         <p class = "first-para">${title || original_name}</p>
         <p class = "second-para">${release_date || first_air_date}</p>
     </div>
@@ -92,12 +94,12 @@ function showMovies(movies) {
 
     movieGallery.appendChild(movieElement);
 
-    let newDiv = document.querySelectorAll(".movie-item");
-    const newDynamicDivs = Array.from(newDiv);
+    // let newDiv = document.querySelectorAll(".movie-item");
+    // const newDynamicDivs = Array.from(newDiv);
 
-    newDynamicDivs.forEach((newDivs) => {
-      newDivs.addEventListener("click", showMovieDetails);
-    });
+    // newDynamicDivs.forEach((newDivs) => {
+    //   newDivs.addEventListener("click", showMovieDetails);
+    // });
   });
 }
 
@@ -143,10 +145,16 @@ function showTvShows(shows) {
 
     seriesElement.innerHTML = `
     <div class="img-area">
-        <img src="http://image.tmdb.org/t/p/w500/${poster_path}" alt="" class="img-link" id="${id}">
+        <img src="${IMG_PATH + poster_path}" alt="${
+      name || original_name
+    }" class="img-link" id="${id}">
         </div>
         <div class= "container">
-        <p class = "first-para">${name || original_name}</p>
+        <p class = "first-para">${
+          name || original_name
+        } <span class="${getClassByRate(
+      vote_average
+    )}">${vote_average}</span></p>
         <p class = "second-para">${first_air_date}</p>
     </div>
     `;
@@ -162,18 +170,28 @@ function showTvShows(shows) {
   });
 }
 
+function getClassByRate(vote) {
+  if (vote >= 8) {
+    return "green";
+  } else if (vote >= 5) {
+    return "orange";
+  } else {
+    return "red";
+  }
+}
+
 function showSeriesDetails(event) {
   // Get Movie Id
   let divClicked = event.target.id;
 
-  const movieId = divClicked;
-  window.location.href = "./series-details.html?id=" + movieId;
+  const seriesId = divClicked;
+  window.location.href = "./series-details.html?id=" + seriesId;
 }
 
-function showMovieDetails(event) {
-  // Get Movie Id
-  let divClicked = event.target.id;
+// function showMovieDetails(event) {
+//   // Get Movie Id
+//   let divClicked = event.target.id;
 
-  const movieId = divClicked;
-  window.location.href = "./movie-details.html?id=" + movieId;
-}
+//   const movieId = divClicked;
+//   window.location.href = "./movie-details.html?id=" + movieId;
+// }
