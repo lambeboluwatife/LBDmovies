@@ -106,12 +106,10 @@
 .footer-title {
   font-size: 30px;
   font-weight: bolder;
-  /* font-family: Georgia, "Times New Roman", Times, serif; */
 }
 
 .footer-subtitle {
   font-weight: bolder;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .join {
@@ -123,7 +121,6 @@
   background-color: #00ff00;
   color: #000;
   cursor: pointer;
-  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
 }
 
 .footer-content {

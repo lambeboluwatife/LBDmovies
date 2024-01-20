@@ -1,125 +1,135 @@
 {
-  "id": 119051,
-  "results": [
+  "adult": false,
+  "backdrop_path": "/ehLvLgBKq5mK5qYBNMmhLtg8dO9.jpg",
+  "created_by": [
     {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "The Cast of Wednesday Describes The Show In 15 Seconds",
-      "key": "oqM983a0GzA",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Featurette",
-      "official": true,
-      "published_at": "2022-11-23T14:00:00.000Z",
-      "id": "63a90d10a6a4c1008097912d"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Welcome to Nevermore",
-      "key": "N1OKeHFX0PQ",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Behind the Scenes",
-      "official": true,
-      "published_at": "2022-11-09T18:00:00.000Z",
-      "id": "636c5c0b81383100772f2d14"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Title Sequence",
-      "key": "2LaCvjjNgR4",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Opening Credits",
-      "official": true,
-      "published_at": "2022-11-08T20:00:00.000Z",
-      "id": "636abdc8d363e50090a91716"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "From the Mind of Tim Burton",
-      "key": "XszaIFktCVw",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Behind the Scenes",
-      "official": true,
-      "published_at": "2022-10-19T16:30:00.000Z",
-      "id": "635101ffc99826007ddc0dd4"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Official Trailer",
-      "key": "Q73UhUTs6y0",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Trailer",
-      "official": true,
-      "published_at": "2022-10-09T00:05:01.000Z",
-      "id": "63423b29cf62cd007eacda7e"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Wednesday Addams vs. Thing",
-      "key": "RCL_dp8YRtA",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Clip",
-      "official": true,
-      "published_at": "2022-09-24T17:29:00.000Z",
-      "id": "632f44c7dd4716008e41cf0a"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Join Wednesday's Addams' New Home - Nevermore Academy",
-      "key": "SoTmSuThMKc",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Teaser",
-      "official": true,
-      "published_at": "2022-09-21T16:30:00.000Z",
-      "id": "63a90e6faaec710086783368"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Inside the Character",
-      "key": "6AWlVOMWt10",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Behind the Scenes",
-      "official": true,
-      "published_at": "2022-08-24T19:00:00.000Z",
-      "id": "630694f918864b007b185f3b"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Official Teaser",
-      "key": "Di310WS8zLk",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Teaser",
-      "official": true,
-      "published_at": "2022-08-17T15:00:00.000Z",
-      "id": "62fd0336435abd0091571d26"
-    },
-    {
-      "iso_639_1": "en",
-      "iso_3166_1": "US",
-      "name": "Wednesday Addams Revealed",
-      "key": "G4QHrAcZalc",
-      "site": "YouTube",
-      "size": 1080,
-      "type": "Teaser",
-      "official": true,
-      "published_at": "2022-06-06T16:03:02.000Z",
-      "id": "629e29a912197e1689f1c62a"
+      "id": 80602,
+      "credit_id": "5db95e06a1d3320014e92acb",
+      "name": "Tyler Perry",
+      "gender": 2,
+      "profile_path": "/8KU0OizemVLrERXt5HJIa0PAkIN.jpg"
     }
-  ]
+  ],
+  "episode_run_time": [42],
+  "first_air_date": "2019-10-23",
+  "genres": [
+    { "id": 35, "name": "Comedy" },
+    { "id": 18, "name": "Drama" }
+  ],
+  "homepage": "https://www.bet.com/shows/tyler-perrys-sistas.html",
+  "id": 94686,
+  "in_production": true,
+  "languages": ["en"],
+  "last_air_date": "2023-02-15",
+  "last_episode_to_air": {
+    "air_date": "2023-02-15",
+    "episode_number": 18,
+    "id": 4226069,
+    "name": "Friends Are Lovers",
+    "overview": "Karen and Andi deal with a matter of betrayal that threatens the sistahood. Fatima leaves Zac for the night to make hard decisions about what her next move should be.",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 5,
+    "show_id": 94686,
+    "still_path": null,
+    "vote_average": 0.0,
+    "vote_count": 0
+  },
+  "name": "Tyler Perry's Sistas",
+  "next_episode_to_air": {
+    "air_date": "2023-02-22",
+    "episode_number": 19,
+    "id": 4226070,
+    "name": "Truth Hurts",
+    "overview": "Sabrina makes a surprising discovery while at Danny’s apartment; Fatima puts Zac in his place as they continue to argue over harsh words.",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 5,
+    "show_id": 94686,
+    "still_path": null,
+    "vote_average": 0.0,
+    "vote_count": 0
+  },
+  "networks": [
+    {
+      "id": 24,
+      "name": "BET",
+      "logo_path": "/gaouRlJrfZlEA5EPHhO5qqZ1Fgu.png",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 110,
+  "number_of_seasons": 5,
+  "origin_country": ["US"],
+  "original_language": "en",
+  "original_name": "Tyler Perry's Sistas",
+  "overview": "There's nothing that bonds a group of single black women together more than sidestepping the land mines of living, working and dating in Atlanta. In a sea of swipe-lefts, social media drama and unrealistic #relationshipgoals, these friends try to find their Mr. Right.",
+  "popularity": 22.916,
+  "poster_path": "/9UtwdSXDkDMvqAdMJsbB8JLlBEH.jpg",
+  "production_companies": [
+    {
+      "id": 3096,
+      "logo_path": "/fkZTZ4veYYr3lwr2riVrVAOfeqD.png",
+      "name": "Tyler Perry Studios",
+      "origin_country": "US"
+    }
+  ],
+  "production_countries": [
+    { "iso_3166_1": "US", "name": "United States of America" }
+  ],
+  "seasons": [
+    {
+      "air_date": "2019-10-23",
+      "episode_count": 25,
+      "id": 134372,
+      "name": "Season 1",
+      "overview": "",
+      "poster_path": "/5MuT0LxU7iUA10GzKfH53o0p0kc.jpg",
+      "season_number": 1
+    },
+    {
+      "air_date": "2020-10-14",
+      "episode_count": 22,
+      "id": 165713,
+      "name": "Season 2",
+      "overview": "",
+      "poster_path": "/zPDCgx1RG6BA80bAArb7ltEsZHB.jpg",
+      "season_number": 2
+    },
+    {
+      "air_date": "2021-06-09",
+      "episode_count": 22,
+      "id": 197838,
+      "name": "Season 3",
+      "overview": "",
+      "poster_path": "/9UtwdSXDkDMvqAdMJsbB8JLlBEH.jpg",
+      "season_number": 3
+    },
+    {
+      "air_date": "2022-01-05",
+      "episode_count": 22,
+      "id": 236203,
+      "name": "Season 4",
+      "overview": "",
+      "poster_path": "/4dSPIbXKsrDvrhr06p8eHFunRU9.jpg",
+      "season_number": 4
+    },
+    {
+      "air_date": "2022-10-12",
+      "episode_count": 19,
+      "id": 311525,
+      "name": "Season 5",
+      "overview": "",
+      "poster_path": null,
+      "season_number": 5
+    }
+  ],
+  "spoken_languages": [
+    { "english_name": "English", "iso_639_1": "en", "name": "English" }
+  ],
+  "status": "Returning Series",
+  "tagline": "Single but never solo.",
+  "type": "Scripted",
+  "vote_average": 8.3,
+  "vote_count": 93
 }

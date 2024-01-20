@@ -81,12 +81,17 @@ function showDetails(detail) {
         ${detail.overview}
     </p>
     <h5>Additional Details</h5>
-    <p><span>Genres:</span> ${detail.genres}</p>
+    <p><span>Genres:</span> ${getGenres(detail.genres)}</p>
     <p><span>Type:</span> ${detail.type}</p>
     <p><span>Number Of Season:</span> ${detail.number_of_seasons}</p>
     <p><span>Number Of Episodes:</span> ${detail.number_of_episodes}</p>
     <p><span>Ratings:</span> ${detail.vote_average}</p>
   `;
+}
+
+function getGenres(genres) {
+  const g = genres.map((genre) => genre.name).join(", ");
+  return g;
 }
 
 getSimilar(SIMILAR_API);
@@ -144,7 +149,6 @@ async function getRecommend(url) {
   const res = await fetch(url);
   const data = await res.json();
 
-  console.log(data);
   showRecommend(data.results);
 }
 
@@ -202,7 +206,6 @@ async function getVideos(url) {
   const res = await fetch(url);
   const data = await res.json();
 
-  console.log(data.results);
   showTrailer(data.results);
 }
 
@@ -211,8 +214,6 @@ const seriesTrailer = document.querySelector(".series-trailer");
 function showTrailer(trailers) {
   trailers.forEach((trailer) => {
     if (trailer.type === "Trailer") {
-      console.log(trailer.name, trailer.key, trailer.type);
-
       const trailerElement = document.createElement("iframe");
       trailerElement.setAttribute("height", "315");
       trailerElement.setAttribute("width", "400");
